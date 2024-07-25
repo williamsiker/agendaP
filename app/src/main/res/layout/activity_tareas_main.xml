@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <Button
+            android:id="@+id/addtarea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@id/RVtareas"
+            android:layout_alignBottom="@id/RVtareas"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="100dp"
+            android:background="@drawable/addbackgroud"
+            android:backgroundTint="#1675D1"
+            android:minWidth="80dp"
+            android:minHeight="80dp"
+            android:text="+"
+            android:textSize="40dp" />
+
+        <Button
+            android:id="@+id/tohometarea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@id/RVtareas"
+            android:layout_alignBottom="@id/RVtareas"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="200dp"
+            android:background="@drawable/border"
+            android:backgroundTint="#1675D1"
+            android:minWidth="80dp"
+            android:minHeight="80dp"
+            android:text="HOME"
+            android:textSize="15dp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/RVtareas"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+    </RelativeLayout>
+</LinearLayout>

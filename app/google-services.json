@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "851446177726",
+    "project_id": "agendap-f3d16",
+    "storage_bucket": "agendap-f3d16.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:851446177726:android:a7b6706678fbd2bb1823ef",
+        "android_client_info": {
+          "package_name": "com.example.agendap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "851446177726-1lno23q0t6i42l941t62cjqsmjdl2nm3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.agendap",
+            "certificate_hash": "2a9c53c94887090a6acdd93d9fa3ee6431be38db"
+          }
+        },
+        {
+          "client_id": "851446177726-j5g77c274i8dmavl7ibkr0bsnahvniqv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDpSjWxrhvXteOXuOyVykku5J8LiN8sIA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "851446177726-j5g77c274i8dmavl7ibkr0bsnahvniqv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/ettarea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Tarea"
+            android:inputType="textPersonName"
+            android:textSize="40dp" />
+
+        <EditText
+            android:id="@+id/etdetalles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Agregar detalles"
+            android:inputType="textPersonName"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/TV_FECHASELEC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:width="100dp"
+            android:hint="fecha"
+            android:maxWidth="100dp"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/BTN_SELECFECHA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Seleccionar Fecha" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/TV_HORASELEC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:width="100dp"
+            android:hint="hora"
+            android:maxWidth="100dp"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/BTN_SELECHORA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Seleccionar Hora" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/BTN_GUARNOTI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar Notificacion" />
+
+    <Button
+        android:id="@+id/BTN_ELIMNOTI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eliminar Notificacion" />
+
+</LinearLayout>
